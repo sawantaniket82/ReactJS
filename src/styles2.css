@@ -1,0 +1,34 @@
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.whatsapp {
+  /* color: #23eb4e; */
+  color: black;
+}
+
+a.facebook {
+  /* color: #0f4ed4; */
+  color: black;
+}
+
+a.linkedin {
+  /* color: #0d4573; */
+  color: black;
+}
+
+.social-contaner {
+  align-content: center;
+}
+
+a.instagram {
+  color: black;
+}
+a.github {
+  color: black;
+}
