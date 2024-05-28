@@ -31,8 +31,8 @@ export default class Contactus extends React.Component {
     return (
       <div className="container">
         <h2>Contact Form</h2>
-        <form>
-          Name{" "}
+        <form action="C:/wamp64/www/contactus.php" method="get">
+          Name
           <input
             type="text"
             name="name"
@@ -44,7 +44,7 @@ export default class Contactus extends React.Component {
           />
           <br />
           <br />
-          Email{" "}
+          Email
           <input
             type="email"
             name="email"
@@ -56,7 +56,7 @@ export default class Contactus extends React.Component {
           />
           <br />
           <br />
-          Message{" "}
+          Message
           <textarea
             name="message"
             id="message"

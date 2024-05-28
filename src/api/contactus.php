@@ -8,8 +8,8 @@ $con =mysqli_connect($host,$username,$password,$dbname);
 $method=$_SERVER['GET'];
 $request=explode('/',trim($_SERVER['PATH_INFO']),'/');
 
-if(!con){
-  die("Connection Failed" ,mysqli_connect_error());
+if(!$con){
+  die("Connection Failed".mysqli_connect_error());
 }
 
 switch($method){
@@ -19,5 +19,3 @@ switch($method){
   break;
   case 'POST':
 }
-
-?>
